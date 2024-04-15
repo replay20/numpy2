@@ -31,4 +31,16 @@ def zad3():
 
     print(np.dot(a,b))
 
-zad3()
+#zad3()
+
+def zad4():
+#Utwórz dwie macierze 1x3 gdzie pierwsza z nich będzie zawierała liczby całkowite, a druga liczby rzeczywiste. Następnie wykonaj na nich operację mnożenia
+    a=np.arange(3,dtype=int).reshape((1,3))
+    b=np.arange(3,dtype=float).reshape((1,3))
+
+    print(a)
+    print(b)
+
+    return a*b
+
+print(zad4())
