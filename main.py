@@ -10,3 +10,16 @@ def zad1():
     #return np.dot(a,b)
 
 print(zad1())
+
+def zad2():
+#Utwórz macierz 3x3 oraz 4x4 i znajdź najniższe wartości dla każdej kolumny i każdego rzędu.
+
+    a = np.arange(16).reshape((4,4))
+    b = np.arange(9).reshape((3,3))
+
+    print(a.min(axis=0))
+    print(a.min(axis=1))
+    print(b.min(axis=0))
+    print(b.min(axis=1))
+
+zad2()
