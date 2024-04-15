@@ -45,12 +45,22 @@ def zad4():
 
 #print(zad4())
 
-def zad5():
+#zad5():
 #Utwórz macierz 2x3 różnych wartości a następnie wylicz sinus dla każdej z jej wartości i zapisz do zmiennej “a”
-    macierz = np.array([[5,3,8],[-6,1,0]])
+macierz = np.array([[5,3,8],[-6,1,0]])
 
-    a=np.sin(macierz)
+a=np.sin(macierz)
 
-    return a
+print(a)
+#zad6():
+#Utwórz nową macierz 2x3 różnych wartości a następnie wylicz cosinus dla każdej z jej wartości i zapisz do zmiennej “b”.
+macierz = np.array([[7, 1, -9], [2, -4, -7]])
 
-print(zad5())
+b = np.cos(macierz)
+
+print(b)
+
+def zad7(macierz1,macierz2):
+    return macierz1+macierz2
+
+print(zad7(a,b))
