@@ -9,7 +9,7 @@ def zad1():
     return a*b
     #return np.dot(a,b)
 
-print(zad1())
+#print(zad1())
 
 def zad2():
 #Utwórz macierz 3x3 oraz 4x4 i znajdź najniższe wartości dla każdej kolumny i każdego rzędu.
@@ -22,4 +22,13 @@ def zad2():
     print(b.min(axis=0))
     print(b.min(axis=1))
 
-zad2()
+#zad2()
+
+def zad3():
+#Wykorzystaj macierze z zadania pierwszego i wykonaj iloczyn macierzy.
+    a = np.array([[2, 4, 3]])
+    b = np.array([5, 8, 1])
+
+    print(np.dot(a,b))
+
+zad3()
