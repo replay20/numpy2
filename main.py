@@ -43,4 +43,14 @@ def zad4():
 
     return a*b
 
-print(zad4())
+#print(zad4())
+
+def zad5():
+#Utwórz macierz 2x3 różnych wartości a następnie wylicz sinus dla każdej z jej wartości i zapisz do zmiennej “a”
+    macierz = np.array([[5,3,8],[-6,1,0]])
+
+    a=np.sin(macierz)
+
+    return a
+
+print(zad5())
