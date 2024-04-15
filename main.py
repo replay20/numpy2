@@ -51,16 +51,26 @@ macierz = np.array([[5,3,8],[-6,1,0]])
 
 a=np.sin(macierz)
 
-print(a)
+#print(a)
 #zad6():
 #Utwórz nową macierz 2x3 różnych wartości a następnie wylicz cosinus dla każdej z jej wartości i zapisz do zmiennej “b”.
 macierz = np.array([[7, 1, -9], [2, -4, -7]])
 
 b = np.cos(macierz)
 
-print(b)
+#print(b)
 
 def zad7(macierz1,macierz2):
+#Wykonaj funkcję dodawania obu macierzy zapisanych wcześniej do zmiennych a i b.
     return macierz1+macierz2
 
-print(zad7(a,b))
+#print(zad7(a,b))
+
+def zad8():
+#Wygeneruj macierz 3x3 i wyświetl w pętli każdy z rzędów.
+    a = np.arange(9).reshape((3,3))
+    print(a)
+    for b in a:
+        print(b)
+
+zad8()
