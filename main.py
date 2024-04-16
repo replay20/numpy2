@@ -81,6 +81,20 @@ def zad9():
     for b in a.flat:
         print(b)
 
-zad9()
+#zad9()
+
+def zad10():
+#Wygeneruj macierz 9x9 a następnie zmień jej kształt. Jakie mamy możliwości i dlaczego?
+    a = np.arange(81).reshape((9,9))
+    print(a)
+    b = a.reshape((27,3))
+    print(b)
+    c = b.reshape((3,27))
+    print(c)
+    d = c.reshape((1,81))
+    print(d)
+    e = d.reshape((81,1))
+#mozna zmieniac ksztalt w taki sposob zeby ilosc elementow sie zgadzala,
+zad10()
 
 
