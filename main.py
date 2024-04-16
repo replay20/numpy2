@@ -73,4 +73,14 @@ def zad8():
     for b in a:
         print(b)
 
-zad8()
+#zad8()
+
+def zad9():
+#Wygeneruj macierz 3x3 i wyświetl w pętli każdy element korzystając z opcji “spłaszczenia” macierzy. (użyj funkcji flat())
+    a=np.arange(9).reshape((3,3))
+    for b in a.flat:
+        print(b)
+
+zad9()
+
+
