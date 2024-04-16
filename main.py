@@ -95,6 +95,23 @@ def zad10():
     print(d)
     e = d.reshape((81,1))
 #mozna zmieniac ksztalt w taki sposob zeby ilosc elementow sie zgadzala,
-zad10()
+#zad10()
 
+def zad11():
+#Wygeneruj macierz płaską (wektor) i przekształć ją na macierz 3x4. Wygeneruj w ten sposób jeszcze kombinacje 4x3 i 2x6. Spłaszcz każdą z nich i wyświetl wyniki. Czy są identyczne?
 
+    a = np.arange(12)
+    b = a.reshape((3,4))
+    c = a.reshape((4,3))
+    d = a.reshape((2,6))
+
+    print(a)
+    print(b)
+    print(c)
+    print(d)
+    print(b.ravel())
+    print(c.ravel())
+    print(d.ravel())
+
+#wyniki sa takie same
+zad11()
